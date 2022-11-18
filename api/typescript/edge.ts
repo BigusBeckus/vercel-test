@@ -18,7 +18,7 @@ export default function handler(request: Request) {
       JSON.stringify({
         message: `Hello ${name} from the edge.`,
         // url: request.url,
-        server: {
+        '@vercel/edge': {
           ipAddress: ipAddress(request),
           geolocation: geolocation(request),
         },
