@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/node': ^18.7.16
+  '@vercel/edge': ^0.1.2
   '@vercel/node': ^2.6.3
   nodemon: ^2.0.19
   prettier: ^2.7.1
@@ -11,6 +12,7 @@ specifiers:
   winston: ^3.8.2
 
 dependencies:
+  '@vercel/edge': 0.1.2
   winston: 3.8.2
 
 devDependencies:
@@ -177,6 +179,10 @@ packages:
   /@vercel/build-utils/5.5.8:
     resolution: {integrity: sha512-DDgud8URl951OKbH9pwGs1MgR47UXSvNW1s+ftOjMKlw/qwDdCbIUclVKMcJc3MhLdnvRoo/a12f01b7dpwZDw==}
     dev: true
+
+  /@vercel/edge/0.1.2:
+    resolution: {integrity: sha512-NmoJ4JvF2/LxU8e8fRJcxaMrO9A8a2WmW6CO9GEomlDltlREyQTUWMk13BuCDDpXUPcSBDrZ2TJIoWiFQEI4sg==}
+    dev: false
 
   /@vercel/go/2.2.16:
     resolution: {integrity: sha512-5BM7bIdjLu/BVpWOjQ9ACpWoKQocpvScNbuYPYsdDOIA5NLv9jgLPaqzj4GArMpw0yDHemhI+1x6Itb+Y9ylQg==}
